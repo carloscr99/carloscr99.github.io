@@ -10078,6 +10078,7 @@ p.lead {
 }
 .social-icons .social-icon:last-child {
   margin-right: 1em;
+  margin-top: 1em;
 }
 .social-icons .social-icon:hover {
   background-color: #bd5d38;
@@ -10112,6 +10113,7 @@ section.resume-section .resume-section-content {
     padding-top: 5rem;
     padding-bottom: 5rem;
   }
+}
 
   /*My own css*/
   .mainColor{
@@ -10120,4 +10122,3 @@ section.resume-section .resume-section-content {
   .addBottom{
     padding-bottom: 2em;
   }
-}
