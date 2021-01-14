@@ -3,6 +3,8 @@
     * Copyright 2013-2020 Start Bootstrap
     * Licensed under MIT (https://github.com/StartBootstrap/startbootstrap-resume/blob/master/LICENSE)
     */
+
+
     (function ($) {
     "use strict"; // Start of use strict
 
@@ -40,3 +42,20 @@
         target: "#sideNav",
     });
 })(jQuery); // End of use strict
+
+
+function ValidateEmail(mail) 
+{
+    console.log(mail + " ddd");
+ if (/^(([^<>()\[\]\\.,;:\s@"]+(\.[^<>()\[\]\\.,;:\s@"]+)*)|(".+"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/.test(mail))
+  {
+
+    return (true)
+  }
+  Swal.fire({
+    icon: 'error',
+    title: 'Oops...',
+    text: 'Tu email no es correcto',
+  })
+    return (false)
+}
